@@ -1,0 +1,45 @@
+{
+  "name": "ns-slug",
+  "version": "1.0.0",
+  "description": "Slug strings",
+  "main": "./lib/nb-slug.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurimba/nb-slug.git"
+  },
+  "keywords": [
+    "Slug",
+    "link",
+    "docker",
+    "make",
+    "nb",
+    "nurimba",
+    "nbAdmin",
+    "samples",
+    "examples"
+  ],
+  "author": "Nurimba <haruanda@gmail.com> (https://github.com/nurimba)",
+  "contributors": [
+    "Luiz Amorim <luiz.simples@gmail.com> (https://github.com/luiz-simples)"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nurimba/nb-slug/issues"
+  },
+  "homepage": "https://github.com/nurimba/nb-slug#readme",
+  "jest": {
+    "testDirectoryName": "tests/lib",
+    "testFileExtensions": [
+      "js"
+    ]
+  },
+  "engines": {
+    "node": "~4.2.6"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.8.2"
+  }
+}
