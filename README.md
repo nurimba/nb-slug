@@ -1,0 +1,2 @@
+# nb-slug
+Slug strings
