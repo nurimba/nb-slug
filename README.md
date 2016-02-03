@@ -1,6 +1,10 @@
 # nb-slug
 Slug strings
 
+[ ![Codeship Status for luiz-simples/nb-slug](https://codeship.com/projects/f04e22a0-acdc-0133-9bf1-0a06bc138256/status?branch=master)](https://codeship.com/projects/131826)
+[![Code Climate](https://codeclimate.com/github/nurimba/nb-slug/badges/gpa.svg)](https://codeclimate.com/github/nurimba/nb-slug)
+
+
 Environment with:
 
 * [Docker](https://docs.docker.com/)
