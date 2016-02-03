@@ -1,6 +1,6 @@
 {
-  "name": "ns-slug",
-  "version": "1.0.8",
+  "name": "nb-slug",
+  "version": "1.0.0",
   "description": "Slug strings",
   "main": "./lib/nb-slug.js",
   "scripts": {
