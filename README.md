@@ -14,3 +14,9 @@ Make tasks of environment
 * Build docker image - ```$ make build-image```
 * Create docker container - ```$ make build-container```
 * Run docker container - ```$ make attach-container```
+
+```js
+var nbSlug = require('nb-slug');
+var slug   = nbSlug('MY STRING ÁÉÍÓ_ al}^ ?}^{  (( ))}  dirty and  now ÚŃÑÃÕÇÂÎÔÛ STRING clear')
+console.log(slug); //my-string-aeiou-al-dirty-and-now-unnaoçaiou-string-clear
+```

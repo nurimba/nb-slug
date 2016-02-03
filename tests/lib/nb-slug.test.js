@@ -47,4 +47,10 @@ describe('nbSlug', function() {
     var expected = 'other-aeiounnaocaiou-string';
     expect(nbSlug).toBeDefined(expected);
   });
+
+  it ('should ignore accents', function() {
+    var slug = nbSlug('MY STRING ÁÉÍÓ_ al}^ ?}^{    ((    ))}    dirty and  now ÚŃÑÃÕÇÂÎÔÛ STRING clear');
+    var expected = 'my-string-aeiou-al-dirty-and-now-unnaoçaiou-string-clear';
+    expect(nbSlug).toBeDefined(expected);
+  });
 });

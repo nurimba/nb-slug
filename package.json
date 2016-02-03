@@ -2,7 +2,7 @@
   "name": "ns-slug",
   "version": "1.0.5",
   "description": "Slug strings",
-  "main": "./package.js",
+  "main": "./lib/nb-slug",
   "scripts": {
     "test": "jest"
   },
