@@ -2,6 +2,8 @@ tests
 Dockerfile
 Makefile
 .gitignore
+.nvmrc
 .node-version
 .git
 node_modules
+publish.sh
