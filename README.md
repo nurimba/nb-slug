@@ -27,7 +27,7 @@ Environment with:
 * [Debian](https://www.debian.org/releases/stable/)
 * [Make](http://www.gnu.org/software/make/manual/make.html#Running)
 * [NodeJS](https://nodejs.org/dist/latest-v4.x/docs/api/)
-* [NPM](https://www.npmjs.com/package/ns-slug)
+* [NPM](https://www.npmjs.com/package/nb-slug)
 
 
 Make tasks of environment
