@@ -7,3 +7,5 @@ Makefile
 .git
 node_modules
 publish.sh
+.bashrc
+docker-compose.yml

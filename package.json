@@ -1,6 +1,6 @@
 {
   "name": "nb-slug",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Slug strings",
   "main": "./lib/nb-slug.js",
   "scripts": {
@@ -38,9 +38,9 @@
     ]
   },
   "engines": {
-    "node": "~4.2.6"
+    "node": "~6.3.0"
   },
   "devDependencies": {
-    "jest-cli": "^0.8.2"
+    "jest-cli": "^14.1.0"
   }
 }

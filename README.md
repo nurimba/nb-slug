@@ -15,7 +15,7 @@ $ npm install nb-slug --save
 ```js
 var nbSlug = require('nb-slug');
 var slug   = nbSlug('MY STRING ÁÉÍÓ_ al}^ ?}^{  (( ))}  dirty and  now ÚŃÑÃÕÇÂÎÔÛ STRING clear')
-console.log(slug); //my-string-aeiou-al-dirty-and-now-unnaoçaiou-string-clear
+console.log(slug); //my-string-aeiou-al-dirty-and-now-unnaocaiou-string-clear
 ```
 
 
@@ -23,7 +23,8 @@ console.log(slug); //my-string-aeiou-al-dirty-and-now-unnaoçaiou-string-clear
 
 Environment with:
 
-* [Docker](https://docs.docker.com/)
+* [Docker](https://www.docker.com/products/docker#/linux)
+* [Docker Compose](https://docs.docker.com/compose/install/)
 * [Debian](https://www.debian.org/releases/stable/)
 * [Make](http://www.gnu.org/software/make/manual/make.html#Running)
 * [NodeJS](https://nodejs.org/dist/latest-v4.x/docs/api/)
@@ -32,13 +33,13 @@ Environment with:
 
 Make tasks of environment
 
-* Build docker image - ```$ make build-image```
-* Create docker container - ```$ make build-container```
-* Run docker container - ```$ make attach-container```
+* UP and RUN docker environment - ```$ make run```
+* Stop docker environment - ```$ make stop```
+* Destroy docker environment - ```$ make down```
 
 
 First steps after environment builded
 ```sh
-nbSlug@dev$ npm install
-nbSlug@dev$ npm test
+nbSlug@dev:~/src$ npm install
+nbSlug@dev:~/src$ npm test
 ```
