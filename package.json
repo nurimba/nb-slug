@@ -1,6 +1,6 @@
 {
   "name": "nb-slug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Slug strings",
   "main": "./lib/nb-slug.js",
   "scripts": {
@@ -32,15 +32,14 @@
   },
   "homepage": "https://github.com/nurimba/nb-slug#readme",
   "jest": {
-    "testDirectoryName": "tests/lib",
-    "testFileExtensions": [
-      "js"
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js?(x)"
+    ],
+    "modulePaths": [
+      "<rootDir>/"
     ]
   },
-  "engines": {
-    "node": "~6.3.0"
-  },
   "devDependencies": {
-    "jest-cli": "^14.1.0"
+    "jest-cli": "^21.1.0"
   }
 }

@@ -1,5 +1,5 @@
-var nbSlugPath = '../../lib/nb-slug';
-var dictPath = '../../lib/diacritics';
+var nbSlugPath = 'lib/nb-slug';
+var dictPath = 'lib/diacritics';
 jest.dontMock(nbSlugPath);
 jest.dontMock(dictPath);
 

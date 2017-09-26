@@ -1,15 +1,15 @@
-version: '2'
+version: '3.3'
 
 services:
   development:
     build: ./
     hostname: "dev"
-    working_dir: /nbSlug/src
-    container_name: pc-dev
+    working_dir: /home/node/src
+    container_name: nb-slug
     environment:
       - NODE_ENV=development
     volumes:
-      - $PWD:/nbSlug/src
-      - $PWD/.bashrc:/nbSlug/.bashrc
-      - $HOME/.ssh:/nbSlug/.ssh
-      - $HOME/.gitconfig:/nbSlug/.gitconfig
+      - $PWD:/home/node/src
+      - $PWD/.bashrc:/home/node/.bashrc
+      - $HOME/.ssh:/home/node/.ssh
+      - $HOME/.gitconfig:/home/node/.gitconfig

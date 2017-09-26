@@ -1,13 +1,10 @@
-FROM malera/es6
-
+FROM node:8.5
 MAINTAINER Nurimba <https://github.com/nurimba>
 
-RUN echo "%sudo ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
-    useradd -u 1000 -G users,sudo -d /nbSlug --shell /bin/bash -m nbSlug && \
-    echo "secret\nsecret" | passwd nbSlug
+RUN echo "%sudo ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && echo "secret\nsecret" | passwd node
 
-USER nbSlug
+USER node
 
-WORKDIR /nbSlug
+WORKDIR /home/node
 
 CMD [ "bash" ]
